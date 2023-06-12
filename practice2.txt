@@ -1,0 +1,463 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+	<!-- [RENEWAL] Base -->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="content-language" content="ko">
+		<meta name="format-detec tin" content="telephone=no" />
+		<!-- meta google for GAM -->
+		
+		<!-- meta keywords,description -->			
+				<meta name="keywords" content="" />
+				<meta name="description" content="(주)웅진은 SAP ERP, 렌탈기업전문솔루션WRMS , AWS클라우드, 네이버웍스, 전자결재, 세일즈 포스 등 IT시스템을 바탕으로 기업의 디지털 경영을 위한 설계 및 통합, 유지보수를 제공하는 IT컨설팅 파트너 입니다.">
+			
+		
+		<title>웅진 IT</title>
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="/new_resources/images/common/favicon.ico?v=202211">
+		<link rel="icon" type="image/x-icon" href="/new_resources/images/common/favicon.ico?v=202211"> 
+		<link rel="stylesheet" type="text/css" href="/new_resources/css/font.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/new_resources/css/layout.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/new_resources/css/sub.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/new_resources/css/modal.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/new_resources/css/bxslider.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/new_resources/css/jquery.fullpage.css" media="all" />
+		
+		<script type="text/javascript" src="/new_resources/js/jquery.js"></script>
+		<script type="text/javascript" src="/new_resources/js/jquery-ui.js"></script>
+		<script type="text/javascript" src="/new_resources/js/bxslider.js"></script>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15924977-9"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-15924977-9');
+		</script>
+		﻿<!-- //Global site tag (gtag.js) - Google Analytics -->
+		<!-- facebook 픽셀코드  -->
+		<!-- <script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '655221051907054'); 
+		fbq('track', 'PageView');
+		</script>
+		<noscript>
+		<img height="0" width="0" src="https://www.facebook.com/tr?id=655221051907054&ev=PageView&noscript=1"/>
+		</noscript> -->
+		<!-- //facebook 픽셀코드  -->
+		
+	</head>
+	<body>
+		<div id="wrap">
+			
+
+<script type="text/javascript">
+var mobileKeyWords = new Array('iPhone', 'iPod', 'iPad', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
+for (var word in mobileKeyWords){
+	if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+		var url=document.location.href;
+		var check=url.indexOf("co.kr/");
+		var length=url.length;
+		var param=url.substring(check+6,length);
+		
+		//인증페이지는 pc 버전만.
+		let onlyPcFlag=false;
+		if(param.indexOf("erp/wijardconsumerInfo.do") > -1 || param.indexOf("erp/wijardConverInfo.do") > -1){
+			onlyPcFlag=true;
+		}
+		
+			if(!onlyPcFlag){
+				window.location.href = "https://m.woongjin.co.kr/"+param;
+			}
+		break;
+		
+	}
+}
+</script>
+
+
+<!-- [RENEWAL] Header -->
+<header>
+    <div id="headerWrap">
+        <a href="/main.do" class="logo" title="웅진IT 메인 페이지 이동"></a>
+        <div class="gnbWrap">
+            <div class="gnb">
+                <a href="/erp/erpInfo.do">ERP</a>
+                <div class="lnbWrap">
+                    <div class="lnb">
+                        <a href="/erp/s4hanaInfo.do">SAP S/4HANA</a>
+                        <a href="/erp/sapB1Info.do">SAP Business One</a>
+                        <a href="/erp/sapEWMInfo.do">SAP EWM</a>
+                        <a href="/erp/smartFactoryInfo.do">Smart Factory</a>
+                        <a href="/erp/wijardpackageInfo.do">WiJARD Package</a>
+                        <a href="/erp/onePackInfo.do">CLOUD ONEPACK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gnb">
+                <a href="/cloud/cloudInfo.do">Cloud</a>
+                <div class="lnbWrap">
+                    <div class="lnb">
+                        <a href="/cloud/AWSInfo.do">AWS (Amazon Web Services)</a>
+                        <a href="/cloud/msAzureInfo.do">Microsoft Azure</a>
+                        <a href="/cloud/Salesforce.do">Salesforce</a>
+                        <a href="/cloud/naverWorksInfo.do">NAVER WORKS 그룹웨어</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gnb">
+                <a href="/solution/solutionInfo.do">Solution</a>
+                <div class="lnbWrap">
+                    <div class="lnb">
+                        <a href="/solution/wrmsInfo.do">WRMS</a>
+                        <a href="http://www.subc.co.kr" target="_blank">SubC</a>
+                        <a href="/solution/gamInfo.do">GAM SOLUTION</a>
+                        <a href="/solution/mobilityInfo.do">Mobility</a>
+                        <a href="/solution/securityInfo.do">Security</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gnb">
+                <a href="/callCenter/callCenterInfo.do">Call Center</a>
+            </div>
+        </div>
+    </div>
+    <a href="/customer/contact.do" class="qnaBtn">
+        문의하기
+    </a>
+</header>
+<!-- /header -->
+
+<script src="/new_resources/js/common.js"></script>
+			
+
+
+<script src="/new_resources/js/main.js"></script>
+<script src="/new_resources/js/modal.js"></script>
+<script src="/new_resources/js/jquery.fullpage.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/new_resources/css/main.css" media="all" />
+
+<script type="text/javascript">
+var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'Windows CE;', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Mobile', 'Symbian', 'Opera Mobi', 'Opera Mini', 'IEmobile');
+for (var word in mobileKeyWords){
+	if (navigator.userAgent.match(mobileKeyWords[word]) != null){
+		
+		
+		window.location.href = "https://m.woongjin.co.kr/";
+		break;
+		
+	}
+}
+
+
+$(function(){
+	//진입시 categoryList 초기화
+	$('.categoryList.on').removeClass('on');
+    $('.categoryList').eq(0).addClass('on');
+    changeCateImg($('.categoryList').eq(0).data("url"));
+	
+    //POPUP
+	let imgRoot="https://www.woongjin.co.kr/File_win/images";
+	
+	let params={};
+	
+		params={};
+		params.title="클라우드 보급_비대면 바우처";
+		params.url="https://www.wjcloud.co.kr/contactus.do";
+		params.images=imgRoot+"/popup/20230516/a9b365026a9645af84d67d0934a5b6ff.jpg";
+		params.width="580px";
+		params.height="630px";
+		params.top="40px";
+		params.left="350px";
+		params.linkType="N";
+		wjPopup["0"]=params;
+	
+	
+	if(wjPopup.length>0){
+		showPopup();
+	}
+});
+
+</script>
+
+<!-- Modal Popup -->
+<div id="modalWrap" style="display:none;"></div>
+<!-- /Modal Popup -->
+
+<div id="fullpage">    
+<!-- 메인 슬라이드 -->
+<section class="section" id="section1">
+    <div id="mainSlider">
+    	
+	    	<div class="slider slider_1" style="background-image:url(https://www.woongjin.co.kr/File_win/images/main_visual/20220608/9ca4428bf72b4f74804a3a178cff14d1.jpg);">
+	            <a href="javascript:void(0);" target="_self" style="cursor:default">
+	                <div class="sliderContent action">
+	                    <div class="titleTxt">
+	                        <div class="overflow">
+	                            <h1>디지털 혁신의 중심에</h1>
+	                        </div>
+	                        <div class="overflow">
+	                            <h1>웅진이 있습니다.</h1>
+	                        </div>
+	                    </div>
+	                    <div class="subTxt">
+	                        <div class="overflow">
+	                            <p>웅진만의 독자적인 기술과 경험으로</p>
+	                        </div>
+	                        <div class="overflow">
+	                            <p>기업의 디지털 혁신을 이끌어갑니다.</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </a>
+	        </div>
+    	
+	    	<div class="slider slider_2" style="background-image:url(https://www.woongjin.co.kr/File_win/images/main_visual/20220608/7c2a353a7b5049b0b2ef7d919c02da77.jpg);">
+	            <a href="javascript:void(0);" target="_self" style="cursor:default">
+	                <div class="sliderContent action">
+	                    <div class="titleTxt">
+	                        <div class="overflow">
+	                            <h1>기업 고객의 성공을 위해</h1>
+	                        </div>
+	                        <div class="overflow">
+	                            <h1>웅진이 함께합니다.</h1>
+	                        </div>
+	                    </div>
+	                    <div class="subTxt">
+	                        <div class="overflow">
+	                            <p>기업 고객의 미래 가치를 창출할 수 있도록</p>
+	                        </div>
+	                        <div class="overflow">
+	                            <p>디지털 기술 기반의 혁신 방향을 제시합니다.</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </a>
+	        </div>
+    	
+	    	<div class="slider slider_3" style="background-image:url(https://www.woongjin.co.kr/File_win/images/main_visual/20220608/58d7b315a1ad4684b0e565faee2ab2b0.jpg);">
+	            <a href="javascript:void(0);" target="_self" style="cursor:default">
+	                <div class="sliderContent action">
+	                    <div class="titleTxt">
+	                        <div class="overflow">
+	                            <h1>웅진은 변화하는</h1>
+	                        </div>
+	                        <div class="overflow">
+	                            <h1>디지털 비즈니스를 준비합니다.</h1>
+	                        </div>
+	                    </div>
+	                    <div class="subTxt">
+	                        <div class="overflow">
+	                            <p>새로운 비즈니스에 민첩하게 대응할 수 있는</p>
+	                        </div>
+	                        <div class="overflow">
+	                            <p>지능형 IT 시스템을 만나보세요.</p>
+	                        </div>
+	                    </div>
+	                </div>
+	            </a>
+	        </div>
+    	
+</section><!-- /메인 슬라이드 -->
+
+<!-- 서비스 -->
+<section class="section" id="section2">
+    <div class="content">
+        <h1 class="contentTitle">디지털 혁신을 위한 파트너, <span class="acent">웅진</span></h1>
+        <p class="contentDescription">IT서비스로 디지털 혁신을 이루고 기업 고객의 미래 가치 창출을 위한 IT 컨설팅 파트너입니다.</p>
+        <div class="categoryWrap">
+            <div class="categoryVisual">
+                <div class="categoryListWrap" id="solutionList">
+                	
+                		<div class="categoryList" data-url="https://www.woongjin.co.kr/File_win/images/main_solution/20220608/548d5645cff742858a101b1a888fc2c6.jpg">
+	                        <a href="https://www.woongjin.co.kr/cloud/cloudInfo.do" target="_self">
+	                            <h1>CLOUD</h1>
+	                            <p>AWS  MS AZURE  Salesforce  Naver Works</p>
+	                        </a>
+	                    </div>
+                	
+                		<div class="categoryList" data-url="https://www.woongjin.co.kr/File_win/images/main_solution/20220608/05363481aaa1458aafe164018662d4d4.jpg">
+	                        <a href="https://www.woongjin.co.kr/erp/erpInfo.do" target="_self">
+	                            <h1>SAP ERP</h1>
+	                            <p>S/4HANA  Business One  EWM  SmartFactory</p>
+	                        </a>
+	                    </div>
+                	
+                		<div class="categoryList" data-url="https://www.woongjin.co.kr/File_win/images/main_solution/20220608/d82ac70df6cb4e25be9c1252e0f3ea30.jpg">
+	                        <a href="https://www.woongjin.co.kr/solution/solutionInfo.do" target="_self">
+	                            <h1>Solution</h1>
+	                            <p>WRMS  SubC  GAMSolution  Mobility  Security</p>
+	                        </a>
+	                    </div>
+                	
+                		<div class="categoryList" data-url="https://www.woongjin.co.kr/File_win/images/main_solution/20220608/a042b92344204c06a3aa6b50ea8b5fd0.jpg">
+	                        <a href="https://www.woongjin.co.kr/callCenter/callCenterInfo.do" target="_self">
+	                            <h1>Call Center</h1>
+	                            <p>Outsourcing Specialty</p>
+	                        </a>
+	                    </div>
+                	
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- /서비스 -->
+
+<!-- 채용정보 -->
+<section class="section" id="section3">
+    <div class="content">
+        <h1 class="contentTitle">채용정보</h1>
+        <div class="careersWrap">
+        	<p class="contentDescription">웅진과 함께 더 넓은 희망으로 나아갈<br>인재를 모집합니다.</p>
+            <ul class="careersList">
+                <li><a href="https://woongjin-it.recruiter.co.kr/appsite/company/index" target="_blank">인재상</a></li>
+                <li><a href="https://woongjin-it.recruiter.co.kr/app/jobnotice/list" target="_blank">채용공고</a></li>
+            </ul>
+	   </div>
+       <div class="noticeWrap">
+           <div class="titleWrap">
+               <div class="titleWrapBg">
+                   <h1 class="title">라이브러리</h1>
+                   <p class="description">웅진의 다양한 소식을 전해드립니다.</p>
+               </div>
+           </div>
+           <ul class="noticeList">
+           
+               <li>
+                   <a href="https://www.woongjin.co.kr/customer/libraryView.do?page=1&b=10&keyword=&category2=&n=403" target="_self">
+                       <span>뉴스</span>
+                      	모빌리티 솔루션 개발 10년… 웅진, BMW코리아 ‘DMS NEXT’로 방점 찍다
+                   </a>
+               </li>
+           
+               <li>
+                   <a href="https://www.woongjin.co.kr/customer/libraryView.do?page=1&b=10&keyword=&category2=&n=402" target="_self">
+                       <span>뉴스</span>
+                      	㈜웅진, IT부문의 사업 매출 1,000억 돌파, 역대 최대실적 달성
+                   </a>
+               </li>
+           
+               <li>
+                   <a href="https://www.woongjin.co.kr/customer/libraryView.do?page=1&b=10&keyword=&category2=&n=401&c=" target="_self">
+                       <span>이벤트</span>
+                      	네이버웍스 + 그룹웨어 200% 활용 세미나
+                   </a>
+               </li>
+           
+           </ul>
+       </div>
+    </div>
+</section><!-- /채용정보 -->
+
+<section class="section fp-auto-height-responsive fp-auto-height " id="section4">
+	 <!-- [RENEWAL] Footer -->
+	<footer>
+	    <div id="footerWrap">
+	        <div class="footerLeft">
+	            <div class="companyLink">
+	                <a href="/company/companyInfo1.do" title="회사정보 페이지 이동">회사정보</a>
+	                <a href="/customer/libraryList.do" title="라이브러리 페이지 이동">라이브러리</a>
+	                <a href="/customer/contact.do" title="문의하기 페이지 이동">문의하기</a>
+	            </div>
+	            <p class="companyInfo">
+	                <span>서울시 중구 청계천로 24 케이스퀘어빌딩 6~9층</span>
+<!-- 	                <span>T. 1600-0147</span> -->
+	                <span><a href="http://www.woongjin.com/side/private.aspx" target="_blank" title="개인정보 처리방침 열기">개인정보 처리방침</a></span>
+	            </p>
+	            <p class="copyright">Copyright ©Woongjin Co.,Ltd. All rights reserved.</p>
+	        </div>
+	        <div class="footerRight">
+	            <div class="snsLink">
+	                <a href="https://blog.naver.com/woongjinmkt" class="naver" target="_blank" title="네이버 블로그 바로가기"></a>
+	                <a href="https://www.facebook.com/woongjinHANA" class="facebook" target="_blank" title="페이스북 바로가기"></a>
+	                <a href="https://www.youtube.com/@woongjinmkt" class="youtube" target="_blank" title="유튜브 바로가기"></a>
+	            </div>
+	            <div class="familySiteLink">
+	                <span class="familySiteBtn"></span>
+	                <ul>
+	                    <li><a href="http://woongjin.com/" target="_blank" title="웅진그룹 홈페이지 열기">웅진그룹</a></li>
+	                    <li><a href="http://www.wjthinkbig.com/" target="_blank" title="웅진씽크빅 홈페이지 열기">웅진씽크빅</a></li>
+	                    <li><a href="http://woongjininc.com/" target="_blank" title="Woongjin INC 홈페이지 열기">Woongjin INC</a></li>
+	                    <li><a href="http://www.playdoci.com/index.aspx" target="_blank" title="웅진플레이도시 홈페이지 열기">웅진플레이도시</a></li>
+	                    <li><a href="https://www.rexfield.com/index.asp" target="_blank" title="렉스필드 컨트리클럽 홈페이지 열기">렉스필드 컨트리클럽</a></li>
+	                    <li><a href="http://www.dermalogica.co.kr/" target="_blank" title="웅진투투럽 홈페이지 열기">웅진투투럽</a></li>
+<!-- 	                    <li><a href="https://www.wjlh.co.kr/myoffice/pub.do" target="_blank" title="웅진헬스원 홈페이지 열기">웅진헬스원</a></li> -->
+	                    <li><a href="http://www.wjbooxen.com/" target="_blank" title="웅진북센 홈페이지 열기">웅진북센</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	    
+	</footer>
+	<!-- /Footer -->
+</section>
+</div>
+<a href="#page1" class="topBtn"></a>
+
+			
+
+
+
+ <!-- [RENEWAL] Footer -->
+<footer>
+    <div id="footerWrap">
+        <div class="footerLeft">
+            <div class="companyLink">
+                <a href="/company/companyInfo1.do" title="회사정보 페이지 이동">회사정보</a>
+                <a href="/customer/libraryList.do" title="라이브러리 페이지 이동">라이브러리</a>
+                <a href="/customer/contact.do" title="문의하기 페이지 이동">문의하기</a>
+            </div>
+            <p class="companyInfo">
+                <span>서울시 중구 청계천로 24 케이스퀘어빌딩 6~9층</span>
+<!--                 <span>T. 1600-0147</span> -->
+                <span><a href="http://www.woongjin.com/side/private.aspx" target="_blank" title="개인정보 처리방침 열기">개인정보 처리방침</a></span>
+            </p>
+            <p class="copyright">Copyright ©Woongjin Co.,Ltd. All rights reserved.</p>
+        </div>
+        <div class="footerRight">
+            <div class="snsLink">
+                <a href="https://blog.naver.com/woongjinmkt" class="naver" target="_blank" title="네이버 블로그 바로가기"></a>
+                <a href="https://www.facebook.com/woongjinHANA" class="facebook" target="_blank" title="페이스북 바로가기"></a>
+                <a href="https://www.youtube.com/@woongjinmkt" class="youtube" target="_blank" title="유튜브 바로가기"></a>
+            </div>
+            <div class="familySiteLink">
+                <span class="familySiteBtn"></span>
+                <ul>
+                    <li><a href="http://woongjin.com/" target="_blank" title="웅진그룹 홈페이지 열기">웅진그룹</a></li>
+                    <li><a href="http://www.wjthinkbig.com/" target="_blank" title="웅진씽크빅 홈페이지 열기">웅진씽크빅</a></li>
+                    <li><a href="http://woongjininc.com/" target="_blank" title="Woongjin INC 홈페이지 열기">Woongjin INC</a></li>
+                    <li><a href="http://www.playdoci.com/index.aspx" target="_blank" title="웅진플레이도시 홈페이지 열기">웅진플레이도시</a></li>
+                    <li><a href="https://www.rexfield.com/index.asp" target="_blank" title="렉스필드 컨트리클럽 홈페이지 열기">렉스필드 컨트리클럽</a></li>
+                    <li><a href="http://www.dermalogica.co.kr/" target="_blank" title="웅진투투럽 홈페이지 열기">웅진투투럽</a></li>
+<!--                     <li><a href="https://www.wjlh.co.kr/myoffice/pub.do" target="_blank" title="웅진헬스원 홈페이지 열기">웅진헬스원</a></li> -->
+                    <li><a href="http://www.wjbooxen.com/" target="_blank" title="웅진북센 홈페이지 열기">웅진북센</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="topBtn"></a>
+</footer>
+<!-- /Footer -->
+		</div>
+		
+		<script async type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script>
+			<script type="text/javascript"> 
+			if (!wcs_add) var wcs_add={};
+			wcs_add["wa"] = "s_4289d08d49cf";
+			if (!_nasa) var _nasa={};
+			wcs.inflow();
+			wcs_do(_nasa);
+			</script>
+	</body>
+</html>
